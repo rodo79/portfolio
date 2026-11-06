@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+<rect width="900" height="600" fill="#244a3e"/>
+<g stroke="#c7d2b7" fill="none" opacity=".16"><ellipse cx="450" cy="340" rx="330" ry="160"/><ellipse cx="450" cy="340" rx="240" ry="116"/><ellipse cx="450" cy="340" rx="140" ry="68"/></g>
+<circle cx="676" cy="130" r="36" fill="#e4bb74"/>
+<g stroke="#e4bb74" stroke-width="1.5"><path d="M676 79V67M676 193V181M625 130H613M739 130H727M640 94L631 85M721 175L712 166M640 166L631 175M721 85L712 94"/></g>
+<g fill="none" stroke="#c7d2b7" stroke-width="2" stroke-linejoin="round">
+<path d="M170 355V250L275 184L380 250V355L275 414ZM170 250L275 312L380 250M275 312V414M188 239L275 184L354 231L266 284ZM225 217L308 266M265 194L347 242M214 255L302 201M244 272L330 219"/>
+<path d="M208 375V319L243 339V395M305 331L343 309V344L305 366ZM307 335L343 313"/>
+<path d="M473 420V330L552 281L631 330V420L552 467ZM473 330L552 377L631 330M552 377V467M494 319L553 282L614 319L555 355ZM514 306L575 344M538 290L600 328M514 332L573 295"/>
+<path d="M500 436V389L529 406V453M574 390L603 373V403L574 420"/>
+<rect x="674" y="319" width="54" height="90" rx="6"/><path d="M689 319V312H714V319M686 353H716M701 338V368"/>
+</g>
+<g fill="none" stroke="#e4bb74" stroke-width="2" stroke-dasharray="4 7"><path d="M380 320L465 368M632 379H673M590 277L654 173M272 418Q373 496 471 424"/></g>
+<g fill="#e4bb74"><circle cx="425" cy="345" r="5"/><circle cx="650" cy="379" r="5"/><circle cx="621" cy="226" r="5"/><circle cx="368" cy="457" r="5"/></g>
+<text x="55" y="65" fill="#c7d2b7" font-family="sans-serif" font-size="12" letter-spacing="4">HOMSPHERE / EMS</text>
+<path d="M55 520H180" stroke="#c7d2b7" opacity=".4"/><text x="55" y="550" fill="#c7d2b7" font-family="Georgia,serif" font-size="18" font-style="italic">Software. Energy. Life.</text>
+</svg>

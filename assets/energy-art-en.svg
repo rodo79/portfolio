@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="energy-scene community-scene" viewBox="0 0 620 510" role="img" aria-labelledby="diagram-title-en diagram-desc-en">
+      <title id="diagram-title-en">Two homes with solar panels, a battery, an electric car and the grid.</title><desc id="diagram-desc-en">Two homes with solar panels, a battery, an electric car and the grid. Small points of light follow the connections: solar energy supplies uses and storage by day, then storage supplies uses at night.</desc>
+      <style>svg{background:#1d4135}.scene-stars,.scene-moon,.storage-route,.storage-particles{display:none}.energy-scene text{fill:#f4f0e7;font-family:sans-serif;font-size:15px}.energy-scene .ems-word{font-family:Georgia,serif;font-size:34px}.energy-scene .ems-brand{font-size:8px;letter-spacing:1px}@media(prefers-reduced-motion:reduce){.solar-particles{display:none}}</style><defs>
+        <linearGradient id="ground-en" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#708b63" stop-opacity=".18"/><stop offset="1" stop-color="#132f27" stop-opacity=".8"/></linearGradient>
+        <radialGradient id="sun-glow-en"><stop stop-color="#f7cb72" stop-opacity=".3"/><stop offset="1" stop-color="#f7cb72" stop-opacity="0"/></radialGradient>
+        <symbol id="community-home-en" viewBox="0 0 164 182">
+          <ellipse cx="82" cy="162" rx="75" ry="18" fill="#10291f" opacity=".28"/>
+          <path d="M10 46L82 88V168L10 126Z" fill="#d4d9bc"/>
+          <path d="M82 88L154 46V126L82 168Z" fill="#96b095"/>
+          <path d="M82 4L154 46L82 88L10 46Z" fill="#e0dfc3" stroke="#d2d9bb" stroke-width="1"/>
+          <path d="M82 18L135 49L82 80L29 49Z" fill="#2c5149" stroke="#8eaf98" stroke-width="1"/>
+          <path d="M46.7 38.7L99.7 69.7M64.3 28.3L117.3 59.3M99.7 28.3L46.7 59.3M117.3 38.7L64.3 69.7" fill="none" stroke="#82a98f" stroke-width=".8"/>
+          <path class="scene-window" d="M26 72L45 83V105L26 94ZM55 89L69 97V120L55 112ZM98 96L117 85V110L98 121ZM127 79L142 70V95L127 104Z" fill="#315347"/>
+          <path d="M59 124L73 132V162L59 154Z" fill="#58755e"/>
+          <path d="M82 90V167" stroke="#698e74" stroke-width="1" opacity=".5"/>
+        </symbol>
+      </defs>
+      <g class="scene-sun"><circle cx="112" cy="90" r="85" fill="url(#sun-glow-en)"/><circle cx="112" cy="90" r="22" fill="#edcb83"/><circle cx="112" cy="90" r="33" fill="none" stroke="#e4c17b" stroke-opacity=".25"/><path d="M112 44V38M112 142V136M66 90H60M164 90H158M80 58L76 54M148 126L144 122M80 122L76 126M148 54L144 58" stroke="#e4c17b" stroke-linecap="round"/></g>
+      <g class="scene-moon"><path d="M124 65A28 28 0 1 0 139 106A25 25 0 0 1 124 65" fill="#e3e7c7"/><g fill="#d6e0c6" opacity=".7"><circle cx="177" cy="62" r="1.5"/><circle cx="240" cy="96" r="1"/><circle cx="423" cy="75" r="1.5"/><circle cx="489" cy="109" r="1"/></g></g>
+      <path d="M63 328L308 187L570 337L324 483Z" fill="#112b24" opacity=".75" transform="translate(0 8)"/>
+      <path d="M63 328L308 187L570 337L324 483Z" fill="url(#ground-en)" stroke="#829c78" stroke-opacity=".25"/>
+      <g class="community-links" fill="none" stroke="#b3c1a0" stroke-width="1.4" stroke-opacity=".35" stroke-linecap="round" stroke-linejoin="round"><path d="M231 340L310 365L421 367M310 365L159 411M310 365L445 426M421 367L530 310L516 242"/></g>
+      <g class="solar-particles" fill="#f5d48f" aria-hidden="true">
+        <circle r="3.5" data-from="solar" data-to="home"><animateMotion dur="7s" repeatCount="indefinite" path="M231 340L310 365L421 367"/></circle>
+        <circle r="3.5" data-from="solar" data-to="battery"><animateMotion dur="7s" begin="-2.3s" repeatCount="indefinite" path="M231 340L310 365L159 411"/></circle>
+        <circle r="3.5" data-from="solar" data-to="car"><animateMotion dur="7s" begin="-4.6s" repeatCount="indefinite" path="M231 340L310 365L445 426"/></circle>
+      </g>
+      <g class="storage-particles" fill="#bfe5d2" aria-hidden="true">
+        <circle r="3.5" data-from="battery" data-to="home"><animateMotion dur="7s" repeatCount="indefinite" path="M159 411L310 365L231 340"/></circle>
+        <circle r="3.5" data-from="battery" data-to="home"><animateMotion dur="7s" begin="-2.3s" repeatCount="indefinite" path="M159 411L310 365L421 367"/></circle>
+        <circle r="3.5" data-from="battery" data-to="car"><animateMotion dur="7s" begin="-4.6s" repeatCount="indefinite" path="M159 411L310 365L445 426"/></circle>
+      </g>
+      <use data-object="house" href="#community-home-en" x="148" y="174" width="164" height="182"/>
+      <use data-object="house" href="#community-home-en" x="354" y="233" width="137" height="152"/>
+      <g data-object="battery" transform="translate(146 374)">
+        <ellipse cx="7" cy="51" rx="38" ry="11" fill="#0c241d" opacity=".35"/>
+        <path d="M20-32L33-40V32L20 40Z" fill="#437663" stroke="#8cb496" stroke-width="1"/>
+        <rect x="-20" y="-32" width="40" height="72" rx="4" fill="#345e4d" stroke="#a4c49e" stroke-width="1.2"/>
+        <path d="M-8-32V-40H8V-32" fill="none" stroke="#a4c49e" stroke-width="1.2"/>
+        <g fill="#b7d3a7"><rect x="-10" y="-21" width="20" height="12" rx="1"/><rect x="-10" y="-4" width="20" height="12" rx="1"/><rect x="-10" y="13" width="20" height="12" rx="1"/></g>
+      </g>
+      <g data-object="car" transform="translate(451 416)">
+        <ellipse cx="1" cy="22" rx="65" ry="13" fill="#0b221b" opacity=".4"/>
+        <path d="M-50 10V-5Q-50-12-42-12H-28L-15-36H15L35-12H44Q52-12 52-5V10H40A9 9 0 0 0 22 10H-29A9 9 0 0 0-47 10Z" fill="#c58d6c" stroke="#d8b58a" stroke-width="1" stroke-linejoin="round"/>
+        <path d="M-24-13L-12-31H0V-13ZM5-31H13L29-13H5Z" fill="#284a40"/>
+        <path d="M-47-8H47M6-9V6" fill="none" stroke="#9e6e55" stroke-width="1"/>
+        <circle cx="-38" cy="10" r="8" fill="#203b30"/><circle cx="31" cy="10" r="8" fill="#203b30"/><circle cx="-38" cy="10" r="3" fill="#a7b49a"/><circle cx="31" cy="10" r="3" fill="#a7b49a"/>
+        <path d="M-48-4H-43M46-4H51" stroke="#f2deab" stroke-width="3"/>
+      </g>
+      <g data-object="grid" transform="translate(516 162)" fill="none" stroke="#b9c7a8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-17 80L-4-6H4L17 80M-23 80H23M-18 16H18M-26 38H26M-10 16L10 38M10 16L-10 38M-12 40L14 68M12 40L-14 68"/><path d="M-18 16Q-40 7-57 15M18 16Q40 7 57 15" opacity=".35"/></g>
+      <g class="scene-labels"><text x="146" y="455" text-anchor="middle">Storage</text><text x="451" y="468" text-anchor="middle">Electric mobility</text><text x="516" y="141" text-anchor="middle">Grid</text></g>
+    </svg>
