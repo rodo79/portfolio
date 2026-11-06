@@ -10,6 +10,9 @@
 - Portrait fourni intégré sans retouche ; chargement et disposition vérifiés.
 - Wakanda intégré à partir des informations fournies par Rodolphe, avec lien vers l’article de 2011.
 - Fichiers du site : environ 24,47 Mio ; vignettes légères et images de lecture chargées à la demande.
-- Aucun déploiement GitHub Actions exécuté ; version locale prête à publier.
+- Publication GitHub Pages réussie : https://rodo79.github.io/portfolio/ ; branche `gh-pages`, commit `99e29645cfdf5e95d8e84c80040a59fc09a69a09`.
+- Déploiement GitHub : https://github.com/rodo79/portfolio/actions/runs/42217027513
+- Les pages FR/EN, les styles, le script, le motif, le portrait, les illustrations énergie et la dernière page du carnet ont répondu HTTP 200. Leurs contenus correspondent exactement aux fichiers locaux.
+- Accueil public inspecté dans le navigateur après publication.
 
 Les préférences de réduction des animations et le parcours sans JavaScript sont pris en charge dans le code ; ils n’ont pas fait l’objet d’une session de navigateur séparée.
