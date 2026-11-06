@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="@@lang@@">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>@@page_title@@</title>
+  <meta name="description" content="@@description@@">
+  <meta name="theme-color" content="#f4f0e7">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="@@page_title@@">
+  <meta property="og:description" content="@@description@@">
+  <meta property="og:locale" content="@@locale@@">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="alternate" hreflang="fr" href="@@fr_link@@">
+  <link rel="alternate" hreflang="en" href="@@en_link@@">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="@@home@@#main">@@skip@@</a>
+  <header class="header shell">
+    <a class="wordmark" href="@@home@@" aria-label="@@home_label@@"><span class="monogram" aria-hidden="true">rd.</span><span>Rodolphe<br>Duperray</span></a>
+    <nav aria-label="@@navigation@@"><a href="@@home@@#projets">@@nav_projects@@</a><a href="@@home@@#homsphere">Homsphere</a><a href="@@home@@#carnet">@@nav_sketchbook@@</a><a href="@@home@@#apropos">@@nav_about@@</a></nav>
+    <div class="languages" aria-label="@@language_label@@"><a href="@@fr_link@@" hreflang="fr" lang="fr" @@current_fr@@ aria-label="Français">FR</a><a href="@@en_link@@" hreflang="en" lang="en" @@current_en@@ aria-label="English">EN</a></div>
+  </header>
+  <main id="main">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">@@hero_eyebrow@@</p>
+        <h1 id="hero-title">@@hero_title@@</h1>
+        <p class="hero-intro">@@hero_intro@@</p>
+        <div class="hero-actions"><a class="button" href="@@home@@#projets">@@hero_cta@@ <span aria-hidden="true">↘</span></a><a class="text-link" href="@@home@@#apropos">@@hero_about@@ <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <figure class="hero-art"><p class="orbit-note"><span class="ink-mark ink-mark-small" aria-hidden="true"><img src="assets/ink-mark.svg" width="64" height="52" alt=""></span>@@art_note@@</p><img src="assets/bd-cover.jpg" width="1071" height="1500" alt="@@cover_alt@@" fetchpriority="high"><figcaption class="art-label">@@art_caption@@</figcaption></figure>
+      <div class="hero-bottom"><span>@@hero_bottom@@</span><span aria-hidden="true">↓</span></div>
+    </section>
+    <div class="intro-line shell"><span class="ink-mark" aria-hidden="true"><img src="assets/ink-mark.svg" width="64" height="52" alt=""></span><p>@@intro_line@@</p><span class="ink-mark" aria-hidden="true"><img src="assets/ink-mark.svg" width="64" height="52" alt=""></span></div>
+    <section class="work shell" id="projets" aria-labelledby="work-title">
+      <div class="section-top reveal"><div><p class="eyebrow">01 / @@work_eyebrow@@</p><h2 id="work-title">@@work_title@@</h2></div><p>@@work_intro@@</p></div>
+      <div class="project-grid">
+        <article class="project reveal">
+          <a class="project-visual" href="https://rodo79.github.io/orbital-puck-site/@@app_locale@@" data-project="orbital" aria-label="@@open_orbital@@"><img class="picture" src="assets/orbital-vex.jpg" width="1920" height="1080" alt="@@orbital_alt@@" loading="lazy"><span class="open-arrow" aria-hidden="true">↗</span></a>
+          <div class="project-meta"><span>01 — @@spatial_game@@</span><span>Apple Vision Pro</span></div>
+          <div class="project-heading"><h3><a href="https://rodo79.github.io/orbital-puck-site/@@app_locale@@" data-project="orbital">Orbital Puck</a></h3><span class="tag">visionOS</span></div><p class="project-summary">@@orbital_summary@@</p>
+        </article>
+        <article class="project reveal">
+          <a class="project-visual project-comic" href="@@home@@#carnet" data-project="comic" aria-label="@@open_comic@@"><img class="picture" src="assets/bd-08.jpg" width="1131" height="1600" alt="@@page8_alt@@" loading="lazy"><img class="picture" src="assets/bd-17.jpg" width="1131" height="1600" alt="@@page17_alt@@" loading="lazy"><span class="open-arrow" aria-hidden="true">↗</span></a>
+          <div class="project-meta"><span>02 — @@comic_category@@</span><span>@@ink_paper@@</span></div>
+          <div class="project-heading"><h3><a href="@@home@@#carnet" data-project="comic">@@comic_title@@</a></h3><span class="tag">@@comic_tag@@</span></div><p class="project-summary">@@comic_summary@@</p>
+        </article>
+        <article class="project reveal">
+          <a class="project-visual project-bastion" href="https://rodo79.github.io/bastion-protocol-site/@@app_locale@@" data-project="bastion" aria-label="@@open_bastion@@"><img class="picture" src="assets/bastion-board.jpg" width="1920" height="1080" alt="@@bastion_alt@@" loading="lazy"><span class="open-arrow" aria-hidden="true">↗</span></a>
+          <div class="project-meta"><span>03 — @@spatial_arcade@@</span><span>Apple Vision Pro</span></div>
+          <div class="project-heading"><h3><a href="https://rodo79.github.io/bastion-protocol-site/@@app_locale@@" data-project="bastion">Bastion Protocol</a></h3><span class="tag">visionOS</span></div><p class="project-summary">@@bastion_summary@@</p>
+        </article>
+        <article class="project reveal">
+          <a class="project-visual project-phone" href="https://apps.apple.com/app/id6811200825" data-project="timeglass" aria-label="@@open_timeglass@@"><img class="picture" src="assets/@@timeglass_image@@" width="414" height="900" alt="@@timeglass_alt@@" loading="lazy"><span class="phone-caption">@@timeglass_visual@@</span><span class="open-arrow" aria-hidden="true">↗</span></a>
+          <div class="project-meta"><span>04 — @@daily_tool@@</span><span>@@apple_devices@@</span></div>
+          <div class="project-heading"><h3><a href="https://apps.apple.com/app/id6811200825" data-project="timeglass">Timeglass</a></h3><span class="tag">App Store</span></div><p class="project-summary">@@timeglass_summary@@</p>
+        </article>
+        <article class="project reveal">
+          <a class="project-visual project-phone project-lexilo" href="https://apps.apple.com/app/id6467566786" data-project="lexilo" aria-label="@@open_lexilo@@"><span class="phone-caption">@@lexilo_visual@@</span><img class="picture" src="assets/lexilo-home.png" width="414" height="900" alt="@@lexilo_alt@@" loading="lazy"><span class="open-arrow" aria-hidden="true">↗</span></a>
+          <div class="project-meta"><span>05 — @@language_learning@@</span><span>@@apple_devices@@</span></div>
+          <div class="project-heading"><h3><a href="https://apps.apple.com/app/id6467566786" data-project="lexilo">Lexilo</a></h3><span class="tag">App Store</span></div><p class="project-summary">@@lexilo_summary@@</p>
+        </article>
+        <article class="project reveal">
+          <a class="project-visual project-energy" href="@@home@@#homsphere" aria-label="@@open_homsphere@@"><img class="picture" src="assets/@@energy_art_asset@@" width="620" height="510" alt="@@energy_art_alt@@" loading="lazy"><span class="open-arrow" aria-hidden="true">↗</span></a>
+          <div class="project-meta"><span>06 — @@energy_category@@</span><span>@@collective@@</span></div>
+          <div class="project-heading"><h3><a href="@@home@@#homsphere">Homsphere</a></h3><span class="tag">EMS · IoT · @@ai_tag@@</span></div><p class="project-summary">@@energy_summary@@</p>
+        </article>
+      </div>
+      <div class="all-apps reveal"><div class="app-icons" aria-hidden="true"><img src="assets/orbital-icon.png" width="37" height="37" alt="" loading="lazy"><img src="assets/bastion-icon.png" width="37" height="37" alt="" loading="lazy"><img src="assets/timeglass-icon.png" width="37" height="37" alt="" loading="lazy"><img src="assets/lexilo-icon.png" width="37" height="37" alt="" loading="lazy"></div><p>@@apps_line@@</p><a href="https://github.com/rodo79">@@github_link@@ <span aria-hidden="true">↗</span></a></div>
+      <article class="founding-project reveal" id="wakanda" aria-labelledby="wakanda-title">
+        <div class="wakanda-drawing" aria-hidden="true"><div class="studio-window"><div class="studio-chrome"><i></i><i></i><i></i><span>Wakanda / Studio</span></div><div class="studio-canvas"><div class="model-entity"><b>Project</b><span>id <i>number</i></span><span>name <i>string</i></span><span>author <i>Person</i></span></div><div class="model-relation"></div><div class="model-entity person-entity"><b>Person</b><span>id <i>number</i></span><span>name <i>string</i></span></div></div><div class="studio-status"><span>{ }</span> JavaScript · Data · Interface</div></div><p>@@wakanda_visual_note@@</p></div>
+        <div class="founding-copy"><p class="eyebrow">@@wakanda_eyebrow@@</p><h2 id="wakanda-title">@@wakanda_title@@</h2><p class="wakanda-intro">@@wakanda_intro@@</p><p class="wakanda-role">@@wakanda_role@@</p><ul class="wakanda-highlights"><li>@@wakanda_point1@@</li><li>@@wakanda_point2@@</li><li>@@wakanda_point3@@</li></ul><a class="text-link" href="https://www.lemondeinformatique.fr/actualites/lire-4d-livre-une-preview-de-wakanda-pour-developper-en-javascript-33990.html">@@wakanda_article@@ <span aria-hidden="true">↗</span></a></div>
+      </article>
+    </section>
+    <section class="energy" id="homsphere" aria-labelledby="energy-title"><div class="shell">
+      <div class="energy-inner">
+        <div class="reveal"><p class="eyebrow">02 / @@energy_eyebrow@@</p><h2 id="energy-title">@@energy_title@@</h2><p class="role"><span aria-hidden="true"></span>Head of Software · Homsphere</p><p class="energy-lead">@@energy_lead@@</p><div class="energy-topics"><span>@@architecture@@</span><span>@@realtime@@</span><span>Cloud & IoT</span><span>@@agentic@@</span></div><a class="energy-link" href="https://homsphere.com/@@homsphere_locale@@/solution/">@@energy_link@@ <span aria-hidden="true">↗</span></a></div>
+        @@energy_scene@@
+      </div>
+      <div class="energy-detail reveal"><div><h3>@@energy_pillar1_title@@</h3><p>@@energy_pillar1@@</p></div><div><h3>@@energy_pillar2_title@@</h3><p>@@energy_pillar2@@</p></div><div><h3>@@energy_pillar3_title@@</h3><p>@@energy_pillar3@@</p></div></div>
+    </div></section>
+    <section class="sketchbook shell" id="carnet" aria-labelledby="sketchbook-title">
+      <div class="section-top reveal"><div><p class="eyebrow">03 / @@sketchbook_eyebrow@@</p><h2 id="sketchbook-title">@@sketchbook_title@@</h2></div><p>@@sketchbook_intro@@</p></div>
+      <div class="notebook-toolbar reveal"><span>@@notebook_count@@</span><span>@@notebook_hint@@</span></div>
+      <div class="gallery gallery-expanded reveal" id="notebook-start">@@gallery_first@@</div>
+      <details class="notebook-more"><summary><span class="more-closed">@@notebook_more@@</span><span class="more-open">@@notebook_less@@</span><span class="more-symbol" aria-hidden="true">+</span></summary><div class="gallery gallery-expanded">@@gallery_rest@@</div></details>
+<p class="gallery-note reveal">@@gallery_note@@</p>
+    </section>
+    <section class="about shell" id="apropos" aria-labelledby="about-title"><div class="about-identity reveal"><p class="eyebrow">04 / @@about_eyebrow@@</p><h2 id="about-title">@@about_title@@</h2><figure class="portrait"><img src="assets/rodolphe-duperray.jpg" width="558" height="640" alt="@@portrait_alt@@" loading="lazy"><figcaption>Rodolphe Duperray<span>@@portrait_caption@@</span></figcaption></figure></div><div class="about-copy reveal"><p>@@about_lead@@</p><p>@@about_body@@</p><div class="about-links"><a href="https://www.linkedin.com/in/rduperray/">@@linkedin_link@@ <span aria-hidden="true">↗</span></a><a href="https://github.com/rodo79">GitHub <span aria-hidden="true">↗</span></a></div></div></section>
+    <section class="contact shell" aria-labelledby="contact-title"><div><p class="eyebrow">@@contact_eyebrow@@</p><h2 id="contact-title">@@contact_title@@</h2></div><a class="button" href="https://www.linkedin.com/in/rduperray/">@@contact_cta@@ <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="footer shell"><span>© 2026 Rodolphe Duperray · @@footer_rights@@</span><span>@@footer_line@@ <span class="ink-mark ink-mark-small" aria-hidden="true"><img src="assets/ink-mark.svg" width="64" height="52" alt=""></span></span><a href="@@home@@#main">@@back_top@@ ↑</a></footer>
+  <dialog class="dialog" id="project-dialog" aria-labelledby="project-modal-title"><div class="dialog-bar"><span>@@dialog_eyebrow@@</span><button class="close-dialog" type="button" aria-label="@@close@@">×</button></div><div class="dialog-body" id="project-body"></div></dialog>
+  <dialog class="dialog gallery-dialog" id="gallery-dialog" aria-label="@@gallery_label@@"><div class="dialog-bar"><span>@@nav_sketchbook@@</span><div class="gallery-tools"><button type="button" id="gallery-zoom" aria-pressed="false" data-zoom="@@zoom@@" data-fit="@@fit_page@@">@@zoom@@</button><button class="close-dialog" type="button" aria-label="@@close@@">×</button></div></div><img class="lightbox-image" id="gallery-image" alt=""><div class="gallery-controls"><button type="button" id="gallery-prev">← @@previous@@</button><span id="gallery-counter" aria-live="polite"></span><button type="button" id="gallery-next">@@next@@ →</button></div></dialog>
+  <template id="detail-orbital"><p class="eyebrow">Apple Vision Pro · visionOS</p><h2 id="project-modal-title">Orbital Puck</h2><p>@@orbital_detail@@</p><img class="detail-image" src="assets/orbital-brasa.jpg" width="1920" height="1080" alt="@@brasa_alt@@"><p class="detail-caption">@@orbital_capture@@</p><div class="dialog-links"><a class="button" href="https://rodo79.github.io/orbital-puck-site/@@app_locale@@">@@visit_project@@ ↗</a><a class="text-link" href="https://github.com/rodo79/orbital-puck-site">@@source_link@@ ↗</a></div></template>
+  <template id="detail-comic"><p class="eyebrow">@@comic_category@@</p><h2 id="project-modal-title">@@comic_title@@</h2><p>@@comic_detail@@</p><img class="detail-image" src="assets/bd-08.jpg" width="1131" height="1600" alt="@@page8_alt@@"><a class="text-link" href="assets/bd-08.jpg" target="_blank" rel="noopener">@@see_page@@ ↗</a></template>
+  <template id="detail-bastion"><p class="eyebrow">Apple Vision Pro · visionOS</p><h2 id="project-modal-title">Bastion Protocol</h2><p>@@bastion_detail@@</p><img class="detail-image" src="assets/bastion-board.jpg" width="1920" height="1080" alt="@@bastion_alt@@"><div class="dialog-links"><a class="button" href="https://rodo79.github.io/bastion-protocol-site/Preview/">@@try_preview@@ ↗</a><a class="text-link" href="https://rodo79.github.io/bastion-protocol-site/@@app_locale@@">@@visit_project@@ ↗</a></div><p class="detail-caption">@@bastion_preview_note@@</p></template>
+  <template id="detail-timeglass"><p class="eyebrow">@@daily_tool@@ · App Store</p><h2 id="project-modal-title">Timeglass</h2><p>@@timeglass_detail@@</p><img class="detail-image" src="assets/@@timeglass_image@@" width="414" height="900" alt="@@timeglass_alt@@"><div class="dialog-links"><a class="button" href="https://apps.apple.com/app/id6811200825">@@app_store@@ ↗</a><a class="text-link" href="https://rodo79.github.io/timeglass/@@app_locale@@">@@visit_project@@ ↗</a></div></template>
+  <template id="detail-lexilo"><p class="eyebrow">@@language_learning@@ · App Store</p><h2 id="project-modal-title">Lexilo</h2><p>@@lexilo_detail@@</p><img class="detail-image" src="assets/lexilo-home.png" width="414" height="900" alt="@@lexilo_alt@@"><div class="dialog-links"><a class="button" href="https://apps.apple.com/app/id6467566786">@@app_store@@ ↗</a><a class="text-link" href="https://rodo79.github.io/lexilo/@@app_locale@@">@@visit_project@@ ↗</a></div></template>
+</body>
+</html>
