@@ -136,13 +136,14 @@ TEXT.update({
  'zoom': ('Agrandir', 'Zoom in'),
  'fit_page': ('Vue entière', 'Fit page'),
  'wakanda_visual_note': ('Évocation du Model Editor, interface réinterprétée.', 'An interpretation of the Model Editor, not an original screenshot.'),
- 'wakanda_eyebrow': ('Wakanda / 4D · Une expérience fondatrice', 'Wakanda / 4D · A formative experience'),
+ 'wakanda_eyebrow': ('Wakanda (4D) · Une expérience fondatrice', 'Wakanda (4D) · A formative experience'),
  'wakanda_title': ('Créer des outils<br>pour ceux<br><em>qui créent.</em>', 'Building tools<br>for people<br><em>who create.</em>'),
  'wakanda_intro': ('J’ai contribué à Wakanda, une plateforme qui réunissait serveur JavaScript, base de données objet, framework client et studio de développement. Une aventure que j’ai aimée : rendre la création d’applications plus accessible à d’autres développeurs.', 'I contributed to Wakanda, a platform bringing together a JavaScript server, an object database, a client framework and a development studio. An experience I loved: helping other developers bring applications to life more easily.'),
  'wakanda_role': ('Développeur, puis Lead Developer et Chef de projet', 'Developer, then Lead Developer and Project Manager'),
  'wakanda_point1': ('Développement du Model Editor, l’éditeur visuel de modèles de données, et de la gestion des utilisateurs et des groupes.', 'Developed the Model Editor, a visual data-model editor, and user and group management.'),
  'wakanda_point2': ('Conception d’un éditeur visuel d’interfaces : maquettes, prototypes, architecture JavaScript modulaire et travail avec l’UX.', 'Designed a visual interface editor: mockups, prototypes, modular JavaScript architecture and collaboration with UX.'),
  'wakanda_point3': ('Du framework mobile à la constitution et au pilotage d’une équipe : relier ingénierie, expérience développeur et travail collectif.', 'From the mobile framework to building and leading a team: connecting engineering, developer experience and collaboration.'),
+ 'wakanda_website': ('Site de 4D', '4D website'),
  'wakanda_article': ('Dans la presse · Le Monde Informatique, 2011', 'In the press · Le Monde Informatique, 2011'),
 })
 TEXT['figure_title'] = ('L’énergie à l’échelle d’un quartier', 'Energy at neighbourhood scale')
