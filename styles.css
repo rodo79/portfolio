@@ -55,3 +55,9 @@ html:not(.js) .energy-modes{display:none}
 .ink-mark{display:inline-flex;align-items:center;justify-content:center;width:44px;height:36px;flex-shrink:0;vertical-align:middle}.ink-mark img{width:100%;height:auto}.ink-mark-small{width:24px;height:20px}.footer .ink-mark{width:16px;height:13px;margin-left:5px}
 .community-scene .scene-window{transition:fill .8s}[data-energy-mode=night] .community-scene .scene-window{fill:#f0d59a;filter:drop-shadow(0 0 3px #f0d59a50)}.energy-landscape .energy-scene-footer{padding-bottom:13px}.energy-landscape .energy-status{min-height:0}
 @media(prefers-reduced-motion:reduce){.community-scene .scene-window{transition:none}}
+
+.wakanda-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+}
